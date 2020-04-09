@@ -1,21 +1,67 @@
 .clear {
-  clear: both; }
-
-nav {
-  float: left;
-  color: #FF0000;
-  font-family: Helvetica, sans-serif; }
-  nav ul li ul.sub-nav {
-    display: none; }
-
+  clear: both;
+}
 .box {
   width: 200px;
   height: 200px;
-  background: red; }
-
+  background: red;
+}
 .box2 {
   width: 200px;
   height: 200px;
-  background: gray; }
-
+  background: gray;
+}
 /*# sourceMappingURL=main.css.map */
+/* MY CODE */
+body {
+  padding-top: 65px;
+}
+body .social {
+  padding-right: 8px;
+}
+body .socialBox {
+  margin-left: 5%;
+  margin-right: 2%;
+}
+body .hero {
+  padding-bottom: 15px;
+}
+body .hero img {
+  max-width: 100%;
+}
+body .intro {
+  height: 400px;
+  margin-top: 4rem;
+}
+body .doctor {
+  max-height: 82%;
+}
+body .docText {
+  margin-top: 0.5rem;
+}
+body .spa1 {
+  max-height: 100%;
+}
+body .card1 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  background-color: #ad9ebc;
+  color: white;
+  padding: 1rem 0;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  max-width: 100%;
+}
+body .options {
+  margin-bottom: 1.5rem;
+}
+body .contactForm {
+  padding: 2rem 0;
+  margin-bottom: 5rem;
+  background-color: #ad9ebc;
+}
+body .contactForm p {
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+}
+/*# sourceMappingURL=index.css.map */

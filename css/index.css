@@ -21,6 +21,9 @@ body {
 body a:hover {
   cursor: pointer;
 }
+body .main {
+  box-shadow: 3px 0px 5px 2px #ccc, -3px 0px 5px 2px #ccc;
+}
 body .social {
   padding-right: 8px;
 }
@@ -130,6 +133,6 @@ body .botNav div {
   margin-bottom: 0.5rem;
 }
 body .botNav:last-child {
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 /*# sourceMappingURL=index.css.map */

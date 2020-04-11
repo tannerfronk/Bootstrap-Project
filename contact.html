@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Calm Mind - Gallery</title>
+	<title>Calm Mind - Contact</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- <link href="img/favicon.png" type="img/png" rel="icon"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -27,21 +27,21 @@
                 <li class="nav-item">
                 <a class="nav-link" href="#">Plastic Surgery</a>
               </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Gallery</a>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Spa Specials</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   About Us
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Meet Dr Crofts</a>
+                  <a class="dropdown-item" href="#">Meet Dr Rando</a>
                   <a class="dropdown-item" href="#">Online Reviews</a>
                   <a class="dropdown-item" href="#">In The News</a>
                   <a class="dropdown-item" href="#">Our Team</a>
@@ -58,66 +58,52 @@
         </nav> <!-- END OF NAV -->
     </div>
     <div class="container main">
-        <div class="row galleryHero d-flex justify-content-center">
-            <img src="images/galleryHero.jpg">
+        <div class="row d-flex justify-content-center contactHeader">
+            <img src="images/contactHeader.jpg">
+        </div>
+        <div class="row d-flex justify-content-center">
+            <h3>We Want to Hear from You!</h3>
         </div>
         
-        <div id="carouselExampleCaptions" class="carousel slide gallerySlide d-flex justify-content-center" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <a href="#"><img src="images/spa2.jpg" class="d-block w-100" alt="..."></a>
-              <div class="carousel-caption d-md-block">
-                <h5 class="first">Plastic Surgery Gallery</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </div>
+        <div class="row contactForm">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <h3 class="text-center col-xl-6 col-lg-6">Contact Us</h3>
+                <h6>Fancy Spa</h6>
+                <p>info@fancyspa.com</p>
+                <p>123 Sesame St</p>
+                <p>Phone - 555-555-5555</p>
+                <h6>Business Hours:</h6>
+                <p>Monday-Thursday 9am - 7pm</p>
+                <p>Friday 9am - 6pm</p>
+                <p>Saturday 10am - 3pm</p>
+                <p>Closed Sunday</p>
+                <h6>Plastic Surgery</h6>
+                <p>888 West Dr.</p>
+                <p>Nowhere, Kansas</p>
+                <p>Phone - 444-555-5555</p>
             </div>
-            <div class="carousel-item">
-              <a href="#"><img src="images/insta3-copy.jpg" class="d-block w-100" alt="..."></a>
-              <div class="carousel-caption d-md-block">
-                <h5 class="second">Medical Spa Gallery</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Phone Number</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="888-888-8888">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                    <button type="button" class="btn btn-light">Send Message</button>
+                </form>
             </div>
-            <div class="carousel-item">
-              <a href="#"><img src="images/spa6.jpg" class="d-block w-100" alt="..."></a>
-              <div class="carousel-caption d-md-block">
-                <h5>Inklifters Gallery</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <a href="#"><img src="images/spa5-copy.jpg" class="d-block w-100" alt="..."></a>
-              <div class="carousel-caption d-md-block">
-                <h5>Calm Mind Gallery</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <a href="#"><img src="images/spa4.jpg" class="d-block w-100" alt="..."></a>
-              <div class="carousel-caption d-md-block">
-                <h5>Misc Gallery</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
         </div>
-        
-        
         
         <div class="row botNav d-flex justify-content-center">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex flex-wrap justify-content-around">

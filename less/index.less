@@ -25,6 +25,7 @@ html {
 /* IMPORTS */
 @import "var";
 @import "gallery";
+@import "contact";
 
 /* MY CODE */
 
@@ -65,7 +66,7 @@ body {
         }
     }
     .doctor {
-        max-height: 82%;
+        max-height: 455px;
     }
     .docText {
         margin-top: .5rem;
@@ -139,11 +140,14 @@ body {
     }
     .botNav {
         color: #ad9ebc;
+        margin-top: @spacing;
         div {
             margin-bottom: .5rem;
         }
     }
     .botNav:last-child {
         padding-bottom: @spacing;
+        margin-top: 0;
+        margin-bottom: @spacing;
     }
 }

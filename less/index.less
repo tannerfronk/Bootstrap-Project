@@ -22,20 +22,30 @@ html {
 
 /*# sourceMappingURL=main.css.map */
 
+/* IMPORTS */
+@import "var";
+
 /* MY CODE */
 
 body {
+    a:hover {
+            cursor: pointer;
+        }
     padding-top: 65px;
         
     .main {
         
-        }
+    }
     .social {
         padding-right: 8px;
     }
     .socialBox {
         margin-left: 5%;
         margin-right: 2%;
+        color: gray;
+        @media @max768 {
+            margin-left: 0;
+        }
     }
     .hero {
         padding-bottom: 15px;
@@ -44,8 +54,14 @@ body {
         }
     }
     .intro {
-        height: 400px;
         margin-top: 4rem;
+        img {
+            max-width: 100%;
+        }
+        @media @max768 {
+            display: flex;
+            flex-direction: column;
+        }
     }
     .doctor {
         max-height: 82%;
@@ -57,8 +73,8 @@ body {
         max-height: 100%;
     }
     .card1 {
-        margin-top: 5rem;
-        margin-bottom: 5rem;
+        margin-top: @spacing;
+        margin-bottom: @spacing;
         background-color: #ad9ebc;
         color: white;
         padding: 1rem 0;
@@ -68,14 +84,65 @@ body {
     }
     .options {
         margin-bottom: 1.5rem;
+        @media @max768 {
+            div {
+                margin-bottom: .5rem;
+            }
+        }
     }
     .contactForm {
         padding: 2rem 0;
-        margin-bottom: 5rem;
+        margin-bottom: @spacing;
+        padding-left: 2rem;
+        padding-right: 2rem;
         background-color: #ad9ebc;
         p {
+            margin-left: 2rem;
             font-size: .8rem;
             margin-bottom: .2rem;
         }
+        @media @max768 {
+            form {
+                padding-top: 1rem;
+            }
+        }
+    }
+    .insta {
+        max-width: 100%;
+        margin-bottom: 1rem;
+        img {
+            width: 250px;
+        }
+    }
+    .instaBtn {
+        margin-bottom: @spacing;
+        button {
+            margin: 1rem;
+        }
+    }
+    .clouds {
+        margin-bottom: @spacing;
+        img {
+            max-width: 100%;
+        }
+    }
+    .offer {
+        @media @max768 {
+            h5 {
+                font-size: 1rem;
+            }
+        }
+    }
+    .subscribe {
+        margin-bottom: @spacing;
+    }
+    .botNav {
+        color: #ad9ebc;
+        div {
+            margin-bottom: .5rem;
+        }
+    }
+    .botNav:last-child {
+        margin-bottom: @spacing;
     }
 }

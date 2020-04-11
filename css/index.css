@@ -12,9 +12,14 @@
   background: gray;
 }
 /*# sourceMappingURL=main.css.map */
+/* IMPORTS */
+/* breakpoints */
 /* MY CODE */
 body {
   padding-top: 65px;
+}
+body a:hover {
+  cursor: pointer;
 }
 body .social {
   padding-right: 8px;
@@ -22,6 +27,12 @@ body .social {
 body .socialBox {
   margin-left: 5%;
   margin-right: 2%;
+  color: gray;
+}
+@media (max-width: 768px) {
+  body .socialBox {
+    margin-left: 0;
+  }
 }
 body .hero {
   padding-bottom: 15px;
@@ -30,8 +41,16 @@ body .hero img {
   max-width: 100%;
 }
 body .intro {
-  height: 400px;
   margin-top: 4rem;
+}
+body .intro img {
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  body .intro {
+    display: flex;
+    flex-direction: column;
+  }
 }
 body .doctor {
   max-height: 82%;
@@ -55,13 +74,62 @@ body .card1 {
 body .options {
   margin-bottom: 1.5rem;
 }
+@media (max-width: 768px) {
+  body .options div {
+    margin-bottom: 0.5rem;
+  }
+}
 body .contactForm {
   padding: 2rem 0;
   margin-bottom: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   background-color: #ad9ebc;
 }
 body .contactForm p {
+  margin-left: 2rem;
   font-size: 0.8rem;
   margin-bottom: 0.2rem;
+}
+@media (max-width: 768px) {
+  body .contactForm form {
+    padding-top: 1rem;
+  }
+}
+body .insta {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+body .insta img {
+  width: 250px;
+}
+body .instaBtn {
+  margin-bottom: 5rem;
+}
+body .instaBtn button {
+  margin: 1rem;
+}
+body .clouds {
+  margin-bottom: 5rem;
+}
+body .clouds img {
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  body .offer h5 {
+    font-size: 1rem;
+  }
+}
+body .subscribe {
+  margin-bottom: 5rem;
+}
+body .botNav {
+  color: #ad9ebc;
+}
+body .botNav div {
+  margin-bottom: 0.5rem;
+}
+body .botNav:last-child {
+  margin-bottom: 5rem;
 }
 /*# sourceMappingURL=index.css.map */
